@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <title>ToDo App</title>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="title">To-Do List.</h1>
+            <h1 class="title"></h1>
             <div class="header__input">
-                <input type="text" id="todoInput" placeholder="Title" class="to-do__input">
-                <span class="addBtn" onclick="newElement()">ADD</span>
+                <input type="text" id="todoInput" placeholder="Enter a task." class="to-do__input">
+                <span class="addBtn" onclick="newElement()"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M22 38.5V26H9.5v-4H22V9.5h4V22h12.5v4H26v12.5Z"/></svg></span>
             </div>
         </header>
         <h2 class="ul__title">Tasks:</h2>

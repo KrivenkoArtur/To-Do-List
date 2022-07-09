@@ -41,32 +41,39 @@ ul {
 .to-do__input {
     background: #FFFFFF;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    -webkit-appearance: none;
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     border-radius: 35px;
     border: none;
-    width: 80%;
+    width: 90%;
     height: 50px;
     outline: none;
     padding-left: 20px;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .addBtn {
-    width: 15%;
+    width: 50px;
     height: 50px;
     background: #6A6A6A;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 35px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 51px;
-    color: #FFFFFF;
+    border-radius: 25px;
     cursor: pointer;
+}
+
+.addBtn svg {
+    fill: #FFFFFF;
 }
 
 .addBtn:hover {
     background-color: #FFFFFF;
     color: #6A6A6A;
+    transition: .3s ease all;
+}
+
+.addBtn:hover svg {
+    fill: #000000;
     transition: .3s ease all;
 }
 
@@ -102,6 +109,8 @@ ul {
     margin-bottom: 25px;
     position: relative;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .task__list li:last-of-type {
@@ -136,7 +145,7 @@ ul {
     top: 0;
     height: 100%;
     padding: 0px 25px 0px 25px;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 25px;
 }
 
